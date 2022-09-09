@@ -1,18 +1,27 @@
+import { Img1, Img2, Img3  } from '../assets'
+
+console.log(Img1)
+
 export default [
+
+    
     {
         title: "Admin-Citas",
-        // imgUrl: 'https://citas-veterinaria-dante.netlify.app',
-        tech: ['CSS','REACT']
+        imgUrl: Img1,
+        tech: ['CSS','REACT'],
+        workUrl: 'https://citas-veterinaria-dante.netlify.app'
     },
     {
         title: "Gif Seach Expert",
-        // imgUrl: 'https://buscador-gifs-joaquin.netlify.app',
-        tech: ['CSS','REACT']
+        imgUrl: Img3,
+        tech: ['CSS','REACT'],
+        workUrl: 'https://buscador-gifs-joaquin.netlify.app'
     },
     {
         title: "Cripto Cotizador",
-        // imgUrl: 'https://cotizador-criptomonedas2-reactjs.netlify.app',
-        tech: ['CSS','REACT']
+        imgUrl: Img2,
+        tech: ['CSS','REACT'],
+        workUrl: 'https://cotizador-criptomonedas2-reactjs.netlify.app'
     },
 
 ]
